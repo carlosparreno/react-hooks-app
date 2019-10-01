@@ -5,11 +5,13 @@ const Switch = props => {
 
   const handleOnClick = () => {
     setSwitchStatus(!switchStatus);
-  }
+  };
   return (
     <>
-    <button className="ha-button" onClick={handleOnClick}>Switch</button>
-    <span>{switchStatus ? 'ON' : 'OFF'}</span>
+      <button className="ha-button" onClick={handleOnClick}>
+        Switch
+      </button>
+      <span>{switchStatus ? 'ON' : 'OFF'}</span>
     </>
   );
 };
