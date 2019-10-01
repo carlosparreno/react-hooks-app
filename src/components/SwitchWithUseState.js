@@ -6,6 +6,7 @@ const Switch = props => {
   const handleOnClick = () => {
     setSwitchStatus(!switchStatus);
   };
+
   return (
     <>
       <button className="ha-button" onClick={handleOnClick}>

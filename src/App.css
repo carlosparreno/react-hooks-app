@@ -9,3 +9,12 @@
 .ha-button {
   margin-right: 12px;
 }
+
+.ha-card {
+  margin: 24px 0px;
+  padding: 6px;
+  border: 1px solid black;
+  max-width: 300px;
+  min-height: 100px;
+  width: auto;
+}
