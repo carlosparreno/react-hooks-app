@@ -1,8 +1,17 @@
-To use this app:
+This app is a basic implementation of Hooks useState, useEffect and useRef for teaching purposes.
+
+### Run this app
+
+To use this app run the following commands in the console:
 
 > git clone https://github.com/carlosparreno/react-hooks-app.git
+
 > npm install
+
 > npm start
+
+
+### Exercises:
 
 To see the exercises:
 
